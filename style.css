@@ -265,7 +265,7 @@ html, body{height:100%;min-height:100%}
 /* 리스트 */
 .list_content {padding:23px 0 26px;border-bottom:1px solid #efefef }
 .list_content::after { content:''; clear:both; display:block }
-.list_content .thumbnail_post { float:right; width:148px; height:148px; margin:0 0 0 30px }
+.list_content .thumbnail_post { float:right; width:150px; height:150px; margin:0 0 0 30px }
 .list_content .link_post{display:block;overflow:hidden;text-decoration:none}
 .list_content .link_post:hover .tit_post {color:#6bacce}
 .list_content .tit_post{display:block;font-weight:normal;font-size:24px}
@@ -288,13 +288,13 @@ html, body{height:100%;min-height:100%}
 .area_paging .inner_paging{display:inline-block;overflow:hidden}
 .area_paging .ico_skin{width:6px;height:10px}
 .area_paging .btn_prev{float:left;margin-right:18px;line-height:30px;color:#5c5c5c}
-.area_paging .no-more-prev {color:#a7a7a7; text-decoration: none}
-.area_paging a .ico_prev{background-position:-140px -10px}
-.area_paging .ico_prev{display:inline-block;margin-right:8px;background-position:-150px -10px}
+.area_paging .btn_prev.no-more-prev {color:#a7a7a7; text-decoration: none}
+.area_paging .no-more-prev .ico_prev{background-position:-150px -10px}
+.area_paging .ico_prev{display:inline-block;margin-right:8px;background-position:-140px -10px}
 .area_paging .btn_next{float:left;margin-left:18px;line-height:30px;color:#5c5c5c}
-.area_paging .no-more-next {color:#a7a7a7; text-decoration: none}
-.area_paging a .ico_next{background-position:-140px 0}
-.area_paging .ico_next{display:inline-block;margin-left:8px;background-position:-150px 0}
+.area_paging .btn_next.no-more-next {color:#a7a7a7; text-decoration: none}
+.area_paging .no-more-next .ico_next{background-position:-150px 0}
+.area_paging .ico_next{display:inline-block;margin-left:8px;background-position:-140px 0}
 .area_paging .link_page span,
 .area_paging .interword {float:left;min-width:10px;height:30px;margin:0 4px;padding:0 10px;line-height:30px;color:#5c5c5c}
 .area_paging .link_page .selected {border-radius:30px;background-color:#6bacce;color:#fff}
@@ -313,8 +313,8 @@ only screen and (max-width:738px){
 	#tt-body-tag .area_search.search_on {padding:6px 15px 0;background:#fff}
 	#tt-body-guestbook .area_search.search_on {padding:6px 15px 0;background:#fff}
 	#tt-body-category .area_search.search_on {padding:6px 15px 0;background:#fff}
-	.area_search .frm_search {width:auto;height:19px;padding:6px 15px 6px 40px;border:1px solid #ebebeb;border-radius:20px}
-	.frm_search .tf_search {width:100%;color:#a7a7a7;height:19px}
+	.area_search .frm_search {width:auto;height:31px;padding:0 15px 0 40px;border:1px solid #ebebeb;border-radius:20px}
+	.frm_search .tf_search {width:100%;color:#222;height:19px;margin-top:7px;font-family:applesdgothicneo-light}
 	.frm_search .tf_search::-webkit-input-placeholder { color:#a7a7a7 }
 	.frm_search .ico_search {position:absolute;left:14px;top:7px;width:18px;height:18px;background-position:-20px 0}
 	.wrap_sub {position:relative;width:auto;min-width:auto}
@@ -404,32 +404,29 @@ only screen and (max-width:738px){
 	.on_more .reply_layer {display:block}
 	.reply_layer .inner_reply_layer {padding:8px 0;border:1px solid #dcdcdc;background:#fff}
 	.reply_layer .inner_reply_layer .link_reply {display:block;height:34px;padding:0 19px;text-align:center;line-height:33px;color:#222}
-	.article_skin .area_paging {height:18px;margin:17px 0 41px 0;padding:0 15px}
+	.article_skin .area_paging {height:18px;margin:20px 0 41px 0;padding:0 15px}
 	.area_paging .inner_paging {display:block;height:18px}
 	.area_paging .link_page,
     .area_paging .interword {display:none}
 	.area_paging .ico_skin {width:10px;height:18px}
-	.area_paging .btn_prev {font-size:15px;line-height:19px}
-	.area_paging a .btn_prev {color:#222}
-	.area_paging .ico_prev {float:left;margin-right:10px;background-position:-70px 0}
-	.area_paging a .ico_prev {background-position:-90px 0}
-	.area_paging .btn_next {float:right;margin-right:0;font-size:15px;vertical-align:top;line-height:19px}
-	.area_paging a .btn_next {color:#222}
-	.area_paging .ico_next {float:right;margin-left:10px;background-position:-80px 0}
-	.area_paging a .ico_next {background-position:-100px 0}
+	.area_paging .btn_prev {font-size:15px;line-height:19px;color:#222}
+	.area_paging .ico_prev {float:left;margin-right:8px;background-position:-90px 0}
+	.area_paging .no-more-prev .ico_prev {background-position:-70px 0}
+	.area_paging .btn_next {float:right;margin-right:0;font-size:15px;vertical-align:top;line-height:19px;color:#222}
+	.area_paging .ico_next {float:right;margin-left:10px;background-position:-100px 0}
+	.area_paging .no-more-next .ico_next {background-position:-90px 0}
 	.area_foot .info_copyright {font-size:11px}
 	/* 리스트 */
-	#tt-body-category .navi_on .area_head {border-bottom:0 none}
-	#tt-body-category .area_search .btn_search {display:none}
-	.list_content {padding:15px}
+	.list_content {padding:17px 15px 15px}
 	.list_content .thumbnail_post,
 	.list_content .thumbnail_post img { width:76px; height:76px }
-	.list_content .tit_post {font-size:17px;color:#222}
-	.list_content .txt_post {font-size:14px;line-height:19px}
+	.list_content .tit_post {font-size:17px;line-height:21px;color:#222;font-family:applesdgothicneo-light}
+	.list_content .txt_post {font-size:14px;line-height:19px;font-family:applesdgothicneo-ultralight}
 	.list_content .detail_info {color:#a7a7a7}
+	.list_content .detail_info .txt_bar { margin:0 2px }
+	.list_content .detail_info .txt_date {font-family:applesdgothicneo-ultralight }
 
 	/* 게스트북 */
-	.navi_on#tt-body-guestbook .area_head {border-bottom:0 none}
 	#tt-body-guestbook .area_reply .fld_reply {border-top:0 none}
 
 	/* 태그 */
@@ -444,7 +441,10 @@ only screen and (max-width:738px){
 	#tt-body-index .index_title .tit_skin,
 	.list_title .tit_skin,
 	#tt-body-tag .tit_skin,
-	#tt-body-guestbook .tit_skin {position:fixed;left:0;top:0;width:100%;height:45px;padding-bottom:0;font-size:15px;line-height:45px;border-bottom:0 none;text-align:center; border-bottom:1px solid #e0e0e0;background-color:rgba(255, 255, 255, 0.95)}
+	#tt-body-guestbook .tit_skin {position:fixed;left:0;right:0;top:0;height:45px;padding-bottom:0; border-bottom:1px solid #e0e0e0;background-color:rgba(255, 255, 255, 0.95)}
+	.tit_skin .txt_title { display:block; position:absolute; left:50px; right:50px; top:0; height:45px; font-size:15px;line-height:45px; text-align:center; color:#222;font-family:applesdgothicneo-light; overflow:hidden; text-overflow:ellipsis clip; white-space: nowrap;word-wrap: normal}
+
+	.area_foot { height:40px; line-height:38px; }
 }
 
 @media
@@ -453,7 +453,7 @@ only screen and (min-width:738px) and (max-width:1262px){
 	.wrap_skin {min-width:100%;padding-left:0}
 	.area_head {position:absolute;width:100%;margin-top:0;padding-top:100px}
 	.area_head .btn_cate {left:0;top:0;width:94px;height:80px}
-	.area_head .btn_cate .ico_cate {width:26px;height:20px;margin:3px auto 0;background-position:0 0}
+	.area_head .btn_cate .ico_cate {width:26px;height:20px;margin:2px auto 0;background-position:0 0}
 	.area_head .area_profile:before {margin:0 auto 30px}
 	.area_head .area_profile .thumb_profile {margin-top:35px}
 	.area_head .area_profile .tit_post {margin-top:-6px}

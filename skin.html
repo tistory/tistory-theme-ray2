@@ -171,19 +171,19 @@
 
 				<s_list>
 				<div class="list_title">
-					<h2 id="dkBody" class="tit_skin"><span class="screen_out">목록</span>[##_list_conform_##] ([##_list_count_##])</h2>
+					<h2 id="dkBody" class="tit_skin"><span class="screen_out">목록</span><span class="txt_title">[##_list_conform_##] ([##_list_count_##])</span></h2>
 				</div>
 				</s_list>
 
 				<div class="index_title">
-					<h2 class="tit_skin">[##_title_##]</h2>
+					<h2 class="tit_skin"><span class="txt_title">[##_title_##]</span></h2>
 				</div>
 
                 <s_article_rep>
 					<s_index_article_rep>
 						<div class="list_content">
 							<s_article_rep_thumbnail>
-								<a href="[##_article_rep_link_##]" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C148x148/?fname=[##_article_rep_thumbnail_raw_url_##]"></a>
+								<a href="[##_article_rep_link_##]" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=[##_article_rep_thumbnail_raw_url_##]"></a>
 							</s_article_rep_thumbnail>
 							<a href="[##_article_rep_link_##]" class="link_post">
 								<strong class="tit_post ">[##_article_rep_title_##]</strong>
@@ -191,7 +191,8 @@
 							</a>
 							<div class="detail_info">
 								<a href="[##_article_rep_category_link_##]" class="link_cate">[##_article_rep_category_##]</a>
-								<span class="txt_bar"></span> [##_article_rep_date_##]
+								<span class="txt_bar"></span>
+								<span class="txt_date">[##_article_rep_date_##]</span>
 							</div>
 						</div>
 					</s_index_article_rep>
@@ -426,7 +427,7 @@
 				</s_article_protected>
 
 				<s_tag>
-					<h2 id="dkBody" class="tit_skin">Tag</h2>
+					<h2 id="dkBody" class="tit_skin"><span class="txt_title">Tag</span></h2>
 					<ul class="list_tag">
 						<s_tag_rep>
 							<li><a href="[##_tag_link_##]" class="link_tag [##_tag_class_##]">[##_tag_name_##]</a></li>
@@ -435,7 +436,7 @@
 				</s_tag>
 
 				<s_guest>
-					<h2 id="dkBody" class="tit_skin">GuestBook</h2>
+					<h2 id="dkBody" class="tit_skin"><span class="txt_title">GuestBook</span></h2>
 					<div class="area_reply">
 						<s_guest_input_form>
 							<fieldset class="fld_reply">
@@ -547,11 +548,11 @@
                 <s_paging>
     				<div class="area_paging">
     					<span class="inner_paging">
-                            <a [##_prev_page_##] class="btn_prev [##_no_more_prev_##]"><span class="ico_skin ico_prev"></span>Back</a>
+                            <a [##_prev_page_##] class="btn_prev [##_no_more_prev_##]"><span class="ico_skin ico_prev"></span>Prev</a>
     						<s_paging_rep>
     							<a [##_paging_rep_link_##] class="link_page">[##_paging_rep_link_num_##]</a>
     						</s_paging_rep>
-                            <a [##_next_page_##] class="btn_next [##_no_more_next_##]">Prev<span class="ico_skin ico_next"></span></a>
+                            <a [##_next_page_##] class="btn_next [##_no_more_next_##]">Next<span class="ico_skin ico_next"></span></a>
     					</span>
     				</div>
                 </s_paging>

@@ -28,17 +28,27 @@
             $inputSearch = $(".area_head .area_search .tf_search"),
             $title = $(".tit_skin");
 
-        $btnSearch.on("click", function() {
+        var showSearch = function() {
             $btnCategory.hide();
             $title.hide();
             $areaSearch.addClass(ON_CLASS);
             $inputSearch.focus();
-        });
+        };
 
-        $inputSearch.on("blur", function(e) {
+        var hideSearch = function() {
             $btnCategory.css("display", "");
             $title.show();
             $areaSearch.removeClass(ON_CLASS);
+        };
+
+        $btnSearch.on("click", function(e) {
+            showSearch();
+        });
+
+        $inputSearch.on("blur", function(e) {
+            if ($inputSearch.val() == "") {
+                hideSearch();
+            }
         });
 
     })();
