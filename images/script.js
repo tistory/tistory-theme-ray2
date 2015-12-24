@@ -25,6 +25,7 @@
         var $btnCategory = $(".area_head .btn_cate"),
             $btnSearch = $(".area_head .btn_search"),
             $areaSearch = $(".area_head .area_search"),
+            $formSearch = $(".area_head .frm_search"),
             $inputSearch = $(".area_head .area_search .tf_search"),
             $title = $(".tit_skin");
 
@@ -46,7 +47,14 @@
         });
 
         $inputSearch.on("blur", function(e) {
-            if ($inputSearch.val() == "") {
+            if ($inputSearch.val() == $inputSearch.data("value")) {
+                hideSearch();
+            }
+        });
+
+        $(document.body).on("keydown", function(e) {
+            if ($areaSearch.hasClass(ON_CLASS) && e.keyCode == 27) {
+                $formSearch[0].reset();
                 hideSearch();
             }
         });
