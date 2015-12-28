@@ -322,6 +322,9 @@ only screen and (max-width:738px){
 	.area_search .btn_search {width:50px;height:45px}
 	.area_search .btn_search .ico_search {width:18px;height:18px;margin-top:0;background-position:-20px 0}
 
+	#tt-body-page .area_head { background-color:rgba(255,255,255,0.95) }
+	#tt-body-page .navi_on .area_head { background-color: inherit }
+
 	.navi_on .area_head {height:72px;position:fixed; right:58px; width:auto}
 	.navi_on .area_head .area_profile {display:block;position:absolute;left:0;right:0;top:0;height:72px;text-align:left}
 	.navi_on .area_head .area_profile:before {display:none}
@@ -398,8 +401,8 @@ only screen and (max-width:738px){
 	.area_reply .writer_check .lab_secret {font-size:14px;color:#666}
 	.area_reply .writer_check .ico_check {top:0;width:30px;height:30px;background-position:0 -60px}
 	.area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-30px -60px;font-family:applesdgothicneo}
-	.area_reply .writer_check {right:inherit;left:15px}
-	.area_reply .writer_check .check_secret {float:left;height:30px;margin-top:3px;line-height:29px}
+	.area_reply .writer_check {right:inherit;left:15px;bottom:19px}
+	.area_reply .writer_check .check_secret {float:left;height:30px;line-height:29px}
 	.area_reply .writer_check .inp_secret {width:30px;height:30px;margin:0 3px 0 0}
     .area_reply .writer_btn {float:none;overflow:hidden;margin-top:11px}
 	.area_reply .writer_btn .btn_enter {float:right;width:65px;height:33px;font-size:14px;line-height:33px}
@@ -447,8 +450,6 @@ only screen and (max-width:738px){
 	#tt-body-tag .tit_skin,
 	#tt-body-guestbook .tit_skin {position:fixed;left:0;right:0;top:0;height:45px;padding-bottom:0; border-bottom:1px solid #e0e0e0;background-color:rgba(255, 255, 255, 0.95);z-index:1}
 	.tit_skin .txt_title { display:block; position:absolute; left:50px; right:50px; top:0; height:45px; font-size:15px;line-height:45px; text-align:center; color:#222;font-family:applesdgothicneo-light; overflow:hidden; text-overflow:ellipsis clip; white-space: nowrap;word-wrap: normal}
-
-	#tt-body-page .area_head { background-color:rgba(255,255,255,0.95) }
 
 	.area_foot { height:40px; line-height:38px; }
 }
