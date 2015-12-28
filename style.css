@@ -154,13 +154,11 @@ html, body{height:100%;min-height:100%}
 .area_foot .emph_t{color:#6bacce}
 
 /* 뷰 상단 */
-.area_title{margin:0 0 22px;padding-bottom:16px;border-bottom:1px solid #efefef}
+.area_title{margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid #efefef}
 .area_title .tit_category a {font-weight:700;font-size:16px;color:#6bacce}
 .area_title .tit_post{padding:3px 0 13px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
 .area_title .info_post{font-size:13px;color:#a7a7a7}
-.area_view .view_text{font-size:16px;line-height:28px;color:#5c5c5c}
-.area_view .img_view{width:100%;margin:15px 0}
-
+.area_view {color:#5c5c5c}
 .area_view p {font-size:16px;line-height:28px; margin:0 auto 28px}
 .area_view a {color:#6bacce}
 .area_view h1,
@@ -307,7 +305,7 @@ only screen and (max-width:738px){
 	.area_head {width:100%;height:45px;min-width:auto;margin-top:0}
 	.area_head .area_profile {display:none}
 	.area_head .btn_cate {left:0;top:0;width:49px;height:45px}
-	.area_head .btn_cate .ico_cate {width:19px;height:15px;margin:2px auto 0;background-position:0 0}
+	.area_head .btn_cate .ico_cate {width:19px;height:15px;margin:0 auto;background-position:0 0}
 	.area_search.search_on {top:0;left:0;width:100%;margin-left:0;padding:12px 15px 0;-webkit-box-sizing:border-box;box-sizing:border-box}
 	#tt-body-tag .area_search.search_on {padding:6px 15px 0;background:#fff}
 	#tt-body-guestbook .area_search.search_on {padding:6px 15px 0;background:#fff}
@@ -322,7 +320,7 @@ only screen and (max-width:738px){
 	.wrap_skin.navi_on {padding-left:0}
 	.area_search {right:0;top:0}
 	.area_search .btn_search {width:50px;height:45px}
-	.area_search .btn_search .ico_search {width:18px;height:18px;margin-top:2px;background-position:-20px 0}
+	.area_search .btn_search .ico_search {width:18px;height:18px;margin-top:0;background-position:-20px 0}
 
 	.navi_on .area_head {height:72px;position:fixed; right:58px; width:auto}
 	.navi_on .area_head .area_profile {display:block;position:absolute;left:0;right:0;top:0;height:72px;text-align:left}
@@ -348,62 +346,68 @@ only screen and (max-width:738px){
 
 	.list_control {display:none}
 	.article_skin {width:100%;min-height:100%;padding:45px 0 0 0}
-	.area_title {margin:0 0 14px;padding:0 15px 15px}
-	.area_title .tit_category {font-weight:normal;font-size:14px}
-	.area_title .tit_post {padding:2px 0 3px;font-size:24px;line-height:28px}
-	.area_title .info_post {display:block;margin-top:5px;font-size:12px}
-	.area_view { margin:0 10px }
-	.area_view .view_text {padding:0 15px;font-size:17px;line-height:24px;color:#333}
-	.area_view .img_view {height:auto}
+	.area_title {padding:0 15px 13px}
+	.area_title .tit_category a {font-weight:normal;font-size:14px}
+	.area_title .tit_post {padding:2px 0 3px;font-size:24px;line-height:30px}
+	.area_title .info_post {display:block;margin-top:5px;font-size:12px;font-family:applesdgothicneo-ultralight}
+	.area_title .info_post .txt_bar { margin:0 6px 0 4px}
+	.area_view { margin:0 15px;font-size:17px;line-height:24px;color:#333;font-family:applesdgothicneo-ultralight }
+	#tt-body-page .article_skin { margin-top:42px }
 	.area_etc {margin-top:14px;padding:0 15px}
-	.area_etc .list_tag dt {width:35px;height:19px;font-size:13px;line-height:19px;letter-spacing:-1px}
-	.list_share {height:36px;margin-top:40px}
+	.area_etc .list_tag dt {width:35px;height:19px;font-size:12px;line-height:19px;border-radius:10px;text-align:center}
+	.list_share {height:36px;margin-top:29px}
 	.list_share .ico_skin {width:36px;height:36px;margin:0 3px}
 	.list_share .link_fb {background-position:0 -20px}
 	.list_share .link_ks {background-position:-40px -20px}
 	.list_share .link_tw {background-position:-80px -20px}
-	.area_related {width:100%;margin-top:36px}
+	.area_related {width:100%;margin-top:46px}
 	.area_related .tit_related {display:block;padding:0 15px;font-size:14px}
-	.list_related {padding:0 7px;margin-top:1px}
-	.list_related li {width:50%;margin:10px 0 0;padding:0 7px;-webkit-box-sizing:border-box;box-sizing:border-box}
+	.list_related {padding:0 10px;margin-top:1px}
+	.list_related li {width:50%;margin:10px 0 0;padding:0 5px;-webkit-box-sizing:border-box;box-sizing:border-box}
 	.list_related .link_related {width:100%;height:100%;min-width:137px;min-height:150px}
 	.list_related .thumb_type .link_related {width:100%;height:100%}
 	.list_related .thumb_related .img_related {width:100%}
 	.list_related .txt_related {padding:18px 10px 0;font-size:14px;line-height:18px}
-	.list_related .date_related {font-size:13px;bottom:14px;letter-spacing:-1px}
+	.list_related .date_related {font-size:13px;bottom:14px}
+	.list_related .txt_related,
+	.list_related .date_related { font-family:applesdgothicneo-ultralight; color:#222 }
+	.list_related .thumb_type .date_related { opacity:0.7 }
 	#tt-body-page .area_reply {margin-top:35px}
-	.area_related .link_more {right:11px;top:0}
+	.area_related .link_more {right:15px;top:0}
 	.area_reply .tit_reply {padding:0 15px;font-size:14px}
-	.area_reply .list_reply li {padding:13px 15px 14px 15px}
-	#tt-body-page .list_reply li:first-child {padding-top:7px}
-	.list_reply .thumb_profile{width:33px;height:33px;margin-right:11px;background-position:-120px -20px}
+	.area_reply .list_reply li {padding:15px 15px 14px}
+	#tt-body-page .list_reply li:first-child {padding-top:11px}
+	.list_reply .thumb_profile{width:33px;height:33px;margin-right:11px;margin-top:2px;background-position:-120px -20px}
+	.area_reply .reply_content { font-family:applesdgothicneo-light }
 	.area_reply .tit_nickname {max-width:120px}
-	.area_reply .txt_reply {line-height:18px}
+	.area_reply .txt_reply {line-height:19px;padding-top:2px}
+	.area_reply .txt_date  {font-family:applesdgothicneo-ultralight}
 	.area_reply .more_reply {display:block;position:absolute;right:0;top:0;width:30px;height:45px}
 	.area_reply .ico_more {display:block;width:3px;height:13px;margin:18px auto 0;background-position:-60px 0}
 	.area_reply .list_reply .re_reply {padding-left:60px}
-	.area_reply .fld_reply {padding:15px;border-bottom:1px solid #efefef}
+	.area_reply .fld_reply {padding:15px 15px 14px;border-bottom:1px solid #efefef;font-family:applesdgothicneo-ultralight}
 	.area_reply .writer_info .info_name {width:50%;margin-right:0}
 	.area_reply .writer_info .info_pw {width:50%}
-	.area_reply .writer_info .inp_info {width:100%}
-	.area_reply .reply_write {margin-top:9px;padding:6px 15px}
+	.area_reply .writer_info .inp_info {width:100%;padding:0 11px}
+	.area_reply .reply_write {margin-top:9px;padding:6px 7px}
+	.area_reply .reply_write .tf_write { color:#222 }
 	.area_reply .info_name .wrap_info {padding-right:5px}
 	.area_reply .info_pw .wrap_info {padding-left:5px}
 	.area_reply .writer_info .lab_info {font-size:14px}
 	.area_reply .lab_write {top:8px;left:14px;font-size:14px}
 	.area_reply .writer_check .lab_secret {font-size:14px;color:#666}
 	.area_reply .writer_check .ico_check {top:0;width:30px;height:30px;background-position:0 -60px}
-	.area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-30px -60px}
-	.area_reply .writer_check {right:inherit;left:20px}
-	.area_reply .writer_check .check_secret {float:left;height:30px;margin-top:2px;line-height:29px}
+	.area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-30px -60px;font-family:applesdgothicneo}
+	.area_reply .writer_check {right:inherit;left:15px}
+	.area_reply .writer_check .check_secret {float:left;height:30px;margin-top:3px;line-height:29px}
 	.area_reply .writer_check .inp_secret {width:30px;height:30px;margin:0 3px 0 0}
-    .area_reply .writer_btn {float:none;overflow:hidden;margin-top:13px}
+    .area_reply .writer_btn {float:none;overflow:hidden;margin-top:11px}
 	.area_reply .writer_btn .btn_enter {float:right;width:65px;height:33px;font-size:14px;line-height:33px}
 	.area_more {display:block}
-	.reply_layer {display:none;position:absolute;right:14px;top:32px;z-index:10}
+	.area_more .reply_layer {display:none;position:absolute;right:10px;top:20px;z-index:10;width:95px}
 	.on_more .reply_layer {display:block}
-	.reply_layer .inner_reply_layer {padding:8px 0;border:1px solid #dcdcdc;background:#fff}
-	.reply_layer .inner_reply_layer .link_reply {display:block;height:34px;padding:0 19px;text-align:center;line-height:33px;color:#222}
+	.reply_layer .inner_reply_layer {padding:10px 0;border:1px solid #dcdcdc;background:#fff}
+	.reply_layer .inner_reply_layer .link_reply {display:block;font-size:14px;text-align:center;line-height:32px;color:#222}
 	.article_skin .area_paging {height:18px;margin:20px 0 41px 0;padding:0 15px}
 	.area_paging .inner_paging {display:block;height:18px}
 	.area_paging .link_page,
@@ -443,6 +447,8 @@ only screen and (max-width:738px){
 	#tt-body-tag .tit_skin,
 	#tt-body-guestbook .tit_skin {position:fixed;left:0;right:0;top:0;height:45px;padding-bottom:0; border-bottom:1px solid #e0e0e0;background-color:rgba(255, 255, 255, 0.95);z-index:1}
 	.tit_skin .txt_title { display:block; position:absolute; left:50px; right:50px; top:0; height:45px; font-size:15px;line-height:45px; text-align:center; color:#222;font-family:applesdgothicneo-light; overflow:hidden; text-overflow:ellipsis clip; white-space: nowrap;word-wrap: normal}
+
+	#tt-body-page .area_head { background-color:rgba(255,255,255,0.95) }
 
 	.area_foot { height:40px; line-height:38px; }
 }
