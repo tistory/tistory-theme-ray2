@@ -39,7 +39,7 @@ html, body{height:100%;min-height:100%}
 .wrap_skin{position:relative;min-width:884px;min-height:100%;padding-left:23%;transition:padding-left ease-in-out 0.2s}
 .wrap_skin.navi_on {padding-left:960px}
 .area_head{position:fixed;left:0;top:0;width:23%;margin-top:171px;min-width:320px;z-index:1000}
-.article_skin{width:800px;min-height:858px;margin:0 auto;padding:94px 42px 100px}
+.article_skin{width:800px;min-height:858px;margin:0 auto;padding:90px 42px 100px}
 .article_skin .tit_skin{padding-bottom:15px;border-bottom:1px solid #efefef;font-weight:normal;font-size:20px;color:#5c5c5c}
 .article_skin .index_title { display:none }
 .area_head .btn_cate{position:absolute;left:35px;top:-141px;width:26px;height:26px;vertical-align:middle}
@@ -154,10 +154,11 @@ html, body{height:100%;min-height:100%}
 .area_foot .emph_t{color:#6bacce}
 
 /* 뷰 상단 */
-.area_title{margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid #efefef}
+.area_title{margin:0 0 30px;padding-bottom:15px;border-bottom:1px solid #efefef}
 .area_title .tit_category a {font-weight:700;font-size:16px;color:#6bacce}
-.area_title .tit_post{padding:3px 0 13px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
+.area_title .tit_post{padding:4px 0 10px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
 .area_title .info_post{font-size:13px;color:#a7a7a7}
+.area_title .info_post .txt_bar { padding:0 9px 0 5px }
 .area_view {color:#5c5c5c}
 .area_view p {font-size:16px;line-height:28px; margin:0 auto 28px}
 .area_view a {color:#6bacce}
@@ -200,37 +201,36 @@ html, body{height:100%;min-height:100%}
 .list_share .link_tw{background-position:-80px -30px}
 
 /* 관련기사 */
-.area_related {position:relative;width:820px;margin-top:30px}
+.area_related {position:relative;width:820px;margin-top:54px}
 .area_related .tit_related {font-weight:normal;font-size:20px;color:#222}
-.list_related {overflow:hidden;margin-top:20px}
+.list_related {overflow:hidden;margin-top:15px}
 .list_related li {position:relative;float:left;margin-right:20px}
 .list_related .link_related {display:block;overflow:hidden;position:relative;width:183px;height:198px;margin:0 auto;border:1px solid #e8e8e8;background:#fafafa;font-size:13px;;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;color:#fff}
 .list_related .thumb_type .link_related {width:185px;height:200px;border:0 none}
 .list_related .frame_related {display:none;position:absolute;left:0;top:0;width:100%;height:100%;background:#000;opacity:.4;filter:alpha(Opacity=40)}
 .thumb_type .frame_related {display:block}
 .list_related .thumb_related {position:absolute;left:0;top:0;width:100%;height:100%}
-.list_related .txt_related {display:block;display:-webkit-box;overflow:hidden;position:relative;left:0;top:0;z-index:10;max-height:80px;padding:30px 20px 0;color:#5c5c5c;text-overflow:ellipsis;-webkit-line-clamp:4;-webkit-box-orient:vertical;word-wrap:break-word}
+.list_related .txt_related {display:block;display:-webkit-box;overflow:hidden;position:relative;left:0;top:0;z-index:10;max-height:80px;padding:27px 20px 0;color:#5c5c5c;text-overflow:ellipsis;-webkit-line-clamp:4;-webkit-box-orient:vertical;word-wrap:break-word}
 .list_related .link_related:hover .txt_related {text-decoration:underline}
 .list_related .date_related {position:absolute;left:0;bottom:20px;z-index:10;width:100%;color:#a7a7a7}
 .list_related .thumb_type .txt_related {color:#fff}
 .list_related .thumb_type .date_related {color:#fff}
-.area_related .link_more {position:absolute;right:20px;top:3px;font-size:13px;color:#a7a7a7;text-decoration:underline}
+.area_related .link_more {position:absolute;right:20px;top:10px;font-size:13px;color:#a7a7a7;border-bottom: 1px solid #a7a7a7}
 .area_related .link_more:hover {text-decoration:underline}
 
 /* 뷰댓글 */
 #tt-body-page .area_reply{margin-top:51px}
-.area_reply .tit_reply{font-weight:normal;font-size:20px;color:#222}
+.area_reply .tit_reply{font-weight:normal;font-size:20px;color:#222;display:block;margin-bottom:20px}
 .area_reply .fld_reply{padding:20px;border-top:1px solid #e8e8e8;background-color:#fafafa;position:relative}
-.area_reply .writer_info{overflow:hidden}
+.area_reply .writer_info{overflow:hidden;margin-bottom:5px}
 .area_reply .writer_info .info_name{float:left;position:relative;margin-right:5px}
 .area_reply .writer_info .info_pw{float:left;position:relative}
-.area_reply .writer_info .lab_info{position:absolute;top:8px;left:16px;font-size:12px;color:#a7a7a7}
 .area_reply .writer_info .wrap_info{display:block}
-.area_reply .writer_info .inp_info{width:171px;height:36px;padding:0 13px;border:1px solid #e8e8e8;background:#fff;font-size:12px;-webkit-box-sizing:border-box;box-sizing:border-box}
-.area_reply .reply_write{position:relative;margin-top:5px;padding:10px 15px;border:1px solid #e8e8e8;background-color:#fff}
-.area_reply .lab_write{position:absolute;top:7px;left:12px;font-size:12px;color:#a7a7a7}
-.area_reply .tf_reply{width:100%;height:70px;border:1px solid #fff;font-size:12px;resize:none;box-sizing:border-box}
-.area_reply .writer_check {position:absolute; bottom:20px; right:105px}
+.area_reply .writer_info .inp_info{width:171px;height:36px;padding:0 13px;border:1px solid #e8e8e8;background:#fff;font-size:13px;-webkit-box-sizing:border-box;box-sizing:border-box}
+.area_reply .reply_write{position:relative;padding:10px 15px;border:1px solid #e8e8e8;background-color:#fff}
+.area_reply .lab_write{position:absolute;top:7px;left:12px;font-size:13px;color:#a7a7a7}
+.area_reply .tf_reply{width:100%;height:70px;border:1px solid #fff;font-size:13px;resize:none;box-sizing:border-box}
+.area_reply .writer_check {position:absolute; bottom:20px; right:93px}
 .area_reply .writer_check .check_secret{float:left;overflow:hidden;position:relative;height:36px;margin-right:14px;line-height:36px}
 .area_reply .writer_check .inp_secret{float:left;width:18px;height:18px;margin:10px 5px 0 0;opacity:0.01;filter: alpha(opacity=1)}
 .area_reply .writer_check .lab_secret{float:left;font-size:12px;color:#5c5c5c;cursor:pointer}
@@ -238,15 +238,15 @@ html, body{height:100%;min-height:100%}
 .area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-120px -50px}
 .area_reply .writer_btn{float:right;margin-top:10px}
 .area_reply .writer_btn .btn_enter{float:left;width:71px;height:36px;border-radius:18px;font-size:13px;line-height:38px;background-color:#6bacce;color:#fff}
-.list_reply .thumb_profile{float:left;width:48px;height:48px;margin-right:25px;border-radius:48px;background-position:-140px -20px}
+.list_reply .thumb_profile{float:left;width:48px;height:48px;margin-right:21px;border-radius:48px;background-position:-140px -20px}
 .list_reply .img_profile{display:block;width:100%;height:100%;border-radius:48px;}
-.area_reply .list_reply li{position:relative;padding:25px 0 24px 0;border-top:1px solid #efefef}
+.area_reply .list_reply li{position:relative;padding:25px 0 22px 0;border-top:1px solid #efefef}
 .area_reply .list_reply li:first-child{border-top:0 none}
 #tt-body-page .list_reply li:first-child{padding-top:16px}
 .area_reply .list_reply .re_reply{padding-left:73px}
 .area_reply .list_reply .reply_secret{height:51px}
 .area_reply .reply_content{overflow:hidden;display:block}
-.area_reply .tit_nickname{float:left;overflow:hidden;max-width:200px;margin-right:5px;color:#222;white-space:nowrap;text-overflow:ellipsis}
+.area_reply .tit_nickname{float:left;overflow:hidden;max-width:200px;margin-right:10px;color:#222;white-space:nowrap;text-overflow:ellipsis;font-size:16px}
 .area_reply .reply_secret .tit_nickname{float:none;display:block}
 .area_reply .tit_nickname a:hover{text-decoration:none}
 .area_reply .txt_date{float:left;margin-top:2px;font-size:12px;color:#a7a7a7}
@@ -254,7 +254,7 @@ html, body{height:100%;min-height:100%}
 .area_reply .txt_reply{display:block;padding-top:4px;font-size:13px;line-height:21px;color:#5c5c5c;clear:both}
 .area_reply .list_reply li:hover .area_more,
 .area_reply .list_reply li:hover .area_more .reply_layer { display:block }
-.area_more .reply_layer { position:absolute; right:27px; top:16px }
+.area_more .reply_layer { position:absolute; right:0px; top:16px }
 .area_more .reply_layer .link_reply { margin:0 2px;font-size:12px;color:#6bacce }
 .area_more .reply_layer .link_reply:hover { text-decoration: none}
 .area_more{display:none}
@@ -281,7 +281,7 @@ html, body{height:100%;min-height:100%}
 #tt-body-guestbook .area_reply .fld_reply{border-top:1px solid #efefef;border-bottom:1px solid #efefef}
 
 /* 페이징 */
-.article_skin .area_paging{height:30px;margin-top:26px;text-align:center}
+.article_skin .area_paging{height:30px;margin-top:28px;margin-bottom:36px;text-align:center}
 .area_paging .inner_paging{display:inline-block;overflow:hidden}
 .area_paging .ico_skin{width:6px;height:10px}
 .area_paging .btn_prev{float:left;margin-right:18px;line-height:30px;color:#5c5c5c}
@@ -377,7 +377,7 @@ only screen and (max-width:738px){
 	.list_related .thumb_type .date_related { opacity:0.7 }
 	#tt-body-page .area_reply {margin-top:35px}
 	.area_related .link_more {right:15px;top:0}
-	.area_reply .tit_reply {padding:0 15px;font-size:14px}
+	.area_reply .tit_reply {padding:0 15px;font-size:14px;margin:0}
 	.area_reply .list_reply li {padding:15px 15px 14px}
 	#tt-body-page .list_reply li:first-child {padding-top:11px}
 	.list_reply .thumb_profile{width:33px;height:33px;margin-right:11px;margin-top:2px;background-position:-120px -20px}
