@@ -45,7 +45,8 @@ html, body{height:100%;min-height:100%}
 .area_head .btn_cate{position:absolute;left:35px;top:-141px;width:26px;height:26px;vertical-align:middle}
 .area_head .btn_cate .ico_cate{width:26px;height:20px}
 
-.area_navi{display:none;float:left;width:238px;padding:0 40px}
+.area_navi {display:none;float:left;width:318px}
+.area_navi .tt_category {padding:0 40px}
 .area_head .area_profile{display:block;text-align:center}
 .area_head .area_profile .tit_post{padding:0 25px}
 .area_head .area_profile:before{display:block;width:38px;height:2px;margin:0 auto 23px;background-color:#fff;content:''}
@@ -89,10 +90,8 @@ html, body{height:100%;min-height:100%}
 .tt_category .link_tit {display:block;padding-bottom:6px;font-weight:normal;font-size:18px;color:#6bacce;text-decoration:underline}
 .tt_category li a .c_cnt,
 .tt_category li a img { display:none }
-.tt_category .category_list li{padding:7px 0}
-.tt_category .category_list .link_item {display:block;overflow:hidden;font-size:18px;color:#fff;text-overflow:ellipsis;white-space:nowrap;text-decoration:none}
+.tt_category .category_list .link_item {display:block;padding:7px 0;overflow:hidden;font-size:18px;color:#fff;text-overflow:ellipsis;white-space:nowrap;text-decoration:none}
 .tt_category .sub_category_list {margin-bottom:-2px;padding-top:7px}
-.tt_category .sub_category_list li{padding:0}
 .tt_category .sub_category_list .link_sub_item {display:block;overflow:hidden;line-height:27px;color:#a7a7a7;text-overflow:ellipsis;white-space:nowrap}
 .tt_category .sub_category_list .link_sub_item::before { content:"- ";}
 .link_guestbook { display:none }
@@ -330,20 +329,21 @@ only screen and (max-width:738px){
 	.navi_on .area_head .area_profile:before {display:none}
 	.navi_on .area_head .area_profile .tit_post {height:30px;padding:3px 0 0;text-align:left}
 	.navi_on .area_head .area_profile .link_post {padding-left:73px;font-size:14px}
-	.navi_on .area_head .area_profile .txt_profile {display:inline-block;margin-top:4px;padding-left:73px;font-size:13px;color:#a7a7a7}
+	.navi_on .area_head .area_profile .txt_profile {display:inline-block;margin-top:4px;padding-left:73px;font-size:13px;color:#a7a7a7;font-family:applesdgothicneo-ultralight}
 	.navi_on .area_head .area_profile .thumb_profile {position:absolute;left:20px;top:15px;width:43px;height:43px;margin:0}
 	.navi_on .area_search {display:none}
 	.navi_on .wrap_sub {position:absolute;left:0;top:0;z-index:100;width:100%;height:100%}
 	.navi_on .cont_sub {background:#222;opacity:0.9;filter:alpha(Opacity=90)}
-	.navi_on .cont_sub .area_sub { top:72px; bottom:0; border-top:1px solid #3f3f40; }
-	.navi_on .wrap_sub .btn_close {right:20px;top:28px;width:18px;height:18px;background-position:-110px 0}
-	.navi_on .area_navi {width:100%;padding:28px 20px;-webkit-box-sizing:border-box;box-sizing:border-box}
+	.navi_on .cont_sub .area_sub { top:74px; bottom:0; border-top:1px solid rgba(255,255,255,0.05); }
+	.navi_on .wrap_sub .btn_close {right:20px;top:27px;width:18px;height:18px;background-position:-110px 0}
+	.navi_on .area_navi {width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}
+	.navi_on .area_navi .tt_category { padding:30px 20px 16px; }
 	.navi_on .wrap_etc {display:none}
-	.navi_on .tt_category .link_tit {font-size:17px}
-	.navi_on .tt_category .category_list li {padding:7px 0}
-	.navi_on .tt_category .category_list .link_item {font-size:17px}
-	.navi_on .tt_category .sub_category_list .link_sub_item {font-size:15px}
-	.navi_on .link_guestbook {display:block;margin-top:50px;font-size:17px;color:#fff}
+	.navi_on .tt_category .link_tit {font-size:17px;padding-bottom:7px}
+	.navi_on .tt_category .category_list .link_item {font-size:17px; padding:8px 0}
+	.navi_on .tt_category .sub_category_list { padding-top:0; margin-top:-1px; margin-bottom:0 }
+	.navi_on .tt_category .sub_category_list .link_sub_item {font-size:15px;padding-bottom:7px}
+	.navi_on .link_guestbook {display:block;padding:25px 20px 27px;font-size:17px;color:#fff;border-top:1px solid rgba(255,255,255,0.05)}
 	.navi_on .article_skin { display:none }
 
 	.list_control {display:none}
