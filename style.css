@@ -467,20 +467,19 @@ only screen and (min-width:738px) and (max-width:1262px){
 	.wrap_skin {min-width:100%;padding-left:0}
 	.area_head {position:absolute;width:100%;margin-top:0;padding-top:100px}
 	.area_head .btn_cate {left:0;top:0;width:94px;height:80px}
-	.area_head .btn_cate .ico_cate {width:26px;height:20px;margin:2px auto 0;background-position:0 0}
+	.area_head .btn_cate .ico_cate {width:26px;height:20px;margin:0 auto;background-position:0 0}
 	.area_head .area_profile:before {margin:0 auto 30px}
 	.area_head .area_profile .thumb_profile {margin-top:35px}
 	.area_head .area_profile .tit_post {margin-top:-6px}
 	.wrap_sub {position:relative;width:100%;max-height:500px}
 	.cont_sub {position:static;height:450px}
 	.cont_sub .inner_sub {padding:0}
-	.cont_sub .area_sub {height:500px}
 	.area_search {right:0;top:0;}
 	.area_search .btn_search {width:90px;height:80px;}
-	.area_search .btn_search .ico_search {width:22px;height:22px;margin:3px auto 0;background-position:-40px 0}
+	.area_search .btn_search .ico_search {width:22px;height:22px;margin:2px auto 0;background-position:-40px 0}
 
-	.area_search.search_on {left:0;top:0;width:100%;margin-left:0;padding:12px 15px 0;-webkit-box-sizing:border-box;box-sizing:border-box}
-	.area_search .frm_search {width:auto;height:28px;padding:6px 15px 6px 45px;border:1px solid #ebebeb;border-radius:20px;background:none}
+	.area_search.search_on {left:0;top:0;width:100%;margin-left:0;padding:12px 34px 0;-webkit-box-sizing:border-box;box-sizing:border-box}
+	.area_search .frm_search {width:auto;height:28px;padding:6px 15px 6px 45px;border:1px solid #ebebeb;border-radius:20px;background:none;margin-top:10px}
 	.frm_search .tf_search {width:100%;height:28px}
 	.frm_search .lab_search {left:45px;top:8px}
 	.frm_search .ico_search {position:absolute;left:13px;top:8px;width:22px;height:22px;background-position:-40px 0}
@@ -512,7 +511,12 @@ only screen and (min-width:738px) and (max-width:1262px){
 	.list_control .link_memo {background-position:-50px -160px}
 	.list_control .link_rss {background-position:-100px -160px}
 	.list_control .link_manage {background-position:-150px -160px}
+
 	.article_skin {width:auto;padding:57px 34px 100px}
+	#tt-body-index .article_skin { padding-top:27px }
+	#tt-body-tag .article_skin,
+	#tt-body-guestbook .article_skin { padding-top: 57px; }
+
 	.list_share {margin-top:47px;height:36px}
 	.list_share .ico_skin {width:36px;height:36px}
 	.list_share .link_fb {background-position:0 -120px}
@@ -528,7 +532,6 @@ only screen and (min-width:738px) and (max-width:1262px){
 	.area_reply .txt_date {margin-top:4px}
 	.area_reply .writer_info .lab_info {font-size:13px}
 	.area_reply .lab_write {font-size:13px}
-	.list_content {padding:28px 0 28px}
 
     /* 메뉴바 */
     #tistorytoolbarid { display:none }
