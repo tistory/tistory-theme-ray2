@@ -490,17 +490,15 @@ only screen and (min-width:738px) and (max-width:1262px){
 	.navi_on .area_search .btn_search {width:auto;height:auto}
 	.navi_on .btn_search .ico_search {background-position:-100px 0}
 	.navi_on .area_search.search_on {left:0;top:25px;width:50%;height:1px;margin-left:50%;padding:0 75px 0 40px}
-	.navi_on .search_on .frm_search {width:100%;height:36px;border:1px solid #868686;box-sizing:border-box;-webkit-box-sizing:border-box}
-	.navi_on .frm_search .tf_search {width:100%}
+	.navi_on .search_on .frm_search {width:100%;height:36px;border:1px solid #868686;box-sizing:border-box;-webkit-box-sizing:border-box; margin-top:0}
+	.navi_on .frm_search .tf_search {width:100%;height:auto}
 	.navi_on .frm_search .ico_search {left:16px;top:10px;width:14px;height:14px;background-position:-160px 0}
 	.navi_on .wrap_sub {position:fixed;left:0;top:0;width:100%;z-index:100}
 	.navi_on .wrap_sub .btn_close {right:41px}
 	.navi_on .cont_sub {height:100%;background:#222 url(images/bg_side_t.png) repeat-y 50% 0;opacity:0.9;filter:alpha(Opacity=90)}
-	.navi_on .cont_sub .area_sub { position:absolute; height:auto; top:96px; bottom:96px; left:0; right:0; overflow-y:auto}
 	.navi_on .wrap_etc .col_aside {float:none;width:320px;padding:0 48px}
 	.navi_on .area_navi {width:50%;-webkit-box-sizing:border-box;box-sizing:border-box}
 	.navi_on .wrap_etc {width:50%}
-	.navi_on .box_tag ,.navi_on .box_archive ,.navi_on .box_visitor {display:none}
 	.navi_on .list_control {left:42px;width:365px;margin-left:0}
 	.navi_on .list_control .ico_skin {width:58px}
 	.navi_on .article_skin { display:none }
