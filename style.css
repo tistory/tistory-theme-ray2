@@ -155,7 +155,7 @@ html, body{height:100%;min-height:100%}
 .area_foot .emph_t{color:#6bacce}
 
 /* 뷰 상단 */
-.area_title{margin:0 0 29px;padding-bottom:15px;border-bottom:1px solid #efefef}
+.area_title{margin:0 0 30px;padding-bottom:15px;border-bottom:1px solid #efefef}
 .area_title .tit_category a {font-weight:700;font-size:16px;color:#6bacce}
 .area_title .tit_post{padding:5px 0 10px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
 .area_title .info_post{font-size:13px;color:#a7a7a7}
@@ -189,7 +189,7 @@ html, body{height:100%;min-height:100%}
 
 
 /* 뷰 댓글 */
-.area_etc{margin-top:34px}
+.area_etc{margin-top:38px}
 .area_etc .list_tag {position:relative}
 .area_etc .list_tag dt{position:absolute;left:0;top:2px;width:34px;height:17px;margin-right:2px;border-radius:8px;font-size:10px;line-height:17px;color:#fff;background-color:#a7a7a7;text-align:center}
 .area_etc .list_tag dd{padding-left:40px}
@@ -516,6 +516,7 @@ only screen and (min-width:738px) and (max-width:1262px){
 	#tt-body-index .article_skin { padding-top:27px }
 	#tt-body-tag .article_skin,
 	#tt-body-guestbook .article_skin { padding-top: 57px; }
+	#tt-body-page .article_skin { padding-top:56px }
 
 	.list_share {margin-top:47px;height:36px}
 	.list_share .ico_skin {width:36px;height:36px}
