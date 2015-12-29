@@ -275,12 +275,16 @@ html, body{height:100%;min-height:100%}
 /* 태그 */
 #tt-body-tag .list_tag{overflow:hidden;margin-top:30px}
 #tt-body-tag .list_tag li{float:left;margin:0 10px 10px 0}
-#tt-body-tag .list_tag .link_tag{display:block;height:34px;padding:0 16px;border:1px solid #6bacce;border-radius:17px;line-height:34px;color:#6bacce}
+#tt-body-tag .list_tag .link_tag{display:block;height:34px;padding:0 16px;border:1px solid #6bacce;border-radius:17px;line-height:36px;color:#6bacce;font-size:13px}
 #tt-body-tag .list_tag .link_tag:hover{color:#fff;background-color:#6bacce;text-decoration:none}
+
+#tt-body-tag .article_skin,
+#tt-body-guestbook .article_skin { padding-top:94px }
 
 /* 게스트 댓글 */
 #tt-body-guestbook .list_reply{border-bottom:1px solid #e8e8e8}
 #tt-body-guestbook .area_reply .fld_reply{border-top:1px solid #efefef;border-bottom:1px solid #efefef}
+#tt-body-guestbook .article_skin .tit_skin { border:0 }
 
 /* 페이징 */
 .article_skin .area_paging{height:30px;margin-top:26px;text-align:center}
