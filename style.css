@@ -39,7 +39,7 @@ html, body{height:100%;min-height:100%}
 .wrap_skin{position:relative;min-width:884px;min-height:100%;padding-left:23%;transition:padding-left ease-in-out 0.2s}
 .wrap_skin.navi_on {padding-left:960px}
 .area_head{position:fixed;left:0;top:0;width:23%;margin-top:171px;min-width:320px;z-index:1000}
-.article_skin{width:800px;min-height:858px;margin:0 auto;padding:90px 42px 100px}
+.article_skin{width:800px;min-height:858px;margin:0 auto;padding:96px 42px 100px}
 .article_skin .tit_skin{padding-bottom:15px;border-bottom:1px solid #efefef;font-weight:normal;font-size:20px;color:#5c5c5c}
 .article_skin .index_title { display:none }
 .area_head .btn_cate{position:absolute;left:35px;top:-141px;width:26px;height:26px;vertical-align:middle}
@@ -154,11 +154,11 @@ html, body{height:100%;min-height:100%}
 .area_foot .emph_t{color:#6bacce}
 
 /* 뷰 상단 */
-.area_title{margin:0 0 30px;padding-bottom:15px;border-bottom:1px solid #efefef}
+.area_title{margin:0 0 29px;padding-bottom:15px;border-bottom:1px solid #efefef}
 .area_title .tit_category a {font-weight:700;font-size:16px;color:#6bacce}
-.area_title .tit_post{padding:4px 0 10px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
+.area_title .tit_post{padding:5px 0 10px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
 .area_title .info_post{font-size:13px;color:#a7a7a7}
-.area_title .info_post .txt_bar { padding:0 9px 0 5px }
+.area_title .info_post .txt_bar { margin:0 9px 0 5px }
 .area_view {color:#5c5c5c}
 .area_view p {font-size:16px;line-height:28px; margin:0 auto 28px}
 .area_view a {color:#6bacce}
@@ -238,7 +238,7 @@ html, body{height:100%;min-height:100%}
 .area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-120px -50px}
 .area_reply .writer_btn{float:right;margin-top:10px}
 .area_reply .writer_btn .btn_enter{float:left;width:71px;height:36px;border-radius:18px;font-size:13px;line-height:38px;background-color:#6bacce;color:#fff}
-.list_reply .thumb_profile{float:left;width:48px;height:48px;margin-right:21px;border-radius:48px;background-position:-140px -20px}
+.list_reply .thumb_profile{float:left;width:48px;height:48px;margin-right:20px;border-radius:48px;background-position:-140px -20px}
 .list_reply .img_profile{display:block;width:100%;height:100%;border-radius:48px;}
 .area_reply .list_reply li{position:relative;padding:25px 0 22px 0;border-top:1px solid #efefef}
 .area_reply .list_reply li:first-child{border-top:0 none}
@@ -281,7 +281,7 @@ html, body{height:100%;min-height:100%}
 #tt-body-guestbook .area_reply .fld_reply{border-top:1px solid #efefef;border-bottom:1px solid #efefef}
 
 /* 페이징 */
-.article_skin .area_paging{height:30px;margin-top:28px;margin-bottom:36px;text-align:center}
+.article_skin .area_paging{height:30px;margin-top:26px;text-align:center}
 .area_paging .inner_paging{display:inline-block;overflow:hidden}
 .area_paging .ico_skin{width:6px;height:10px}
 .area_paging .btn_prev{float:left;margin-right:18px;line-height:30px;color:#5c5c5c}
@@ -400,7 +400,8 @@ only screen and (max-width:738px){
 	.area_reply .lab_write {top:8px;left:14px;font-size:14px}
 	.area_reply .writer_check .lab_secret {font-size:14px;color:#666}
 	.area_reply .writer_check .ico_check {top:0;width:30px;height:30px;background-position:0 -60px}
-	.area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-30px -60px;font-family:applesdgothicneo}
+	.area_reply .writer_check .inp_secret:checked + .lab_secret .ico_check{background-position:-30px -60px}
+	.area_reply .writer_check .inp_secret:checked + .lab_secret {font-family:applesdgothicneo}
 	.area_reply .writer_check {right:inherit;left:15px;bottom:19px}
 	.area_reply .writer_check .check_secret {float:left;height:30px;line-height:29px}
 	.area_reply .writer_check .inp_secret {width:30px;height:30px;margin:0 3px 0 0}
