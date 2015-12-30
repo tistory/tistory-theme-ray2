@@ -216,8 +216,7 @@ html, body{height:100%;min-height:100%}
 .list_related .date_related {position:absolute;left:0;bottom:20px;z-index:10;width:100%;color:#a7a7a7}
 .list_related .thumb_type .txt_related {color:#fff}
 .list_related .thumb_type .date_related {color:#fff}
-.area_related .link_more {position:absolute;right:20px;top:10px;font-size:13px;color:#a7a7a7;border-bottom: 1px solid #a7a7a7}
-.area_related .link_more:hover {text-decoration:underline}
+.area_related .link_more {position:absolute;right:20px;top:10px;font-size:13px;color:#a7a7a7;border-bottom: 1px solid #a7a7a7;text-decoration:none}
 
 /* 뷰댓글 */
 #tt-body-page .area_reply{margin-top:51px}
