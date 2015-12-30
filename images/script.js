@@ -22,24 +22,19 @@
     Area.Search = (function() {
         var ON_CLASS = "search_on";
 
-        var $btnCategory = $(".area_head .btn_cate"),
+
+        var $wrap = $(".wrap_skin"),
             $btnSearch = $(".area_head .btn_search"),
-            $areaSearch = $(".area_head .area_search"),
             $formSearch = $(".area_head .frm_search"),
-            $inputSearch = $(".area_head .area_search .tf_search"),
-            $title = $(".tit_skin");
+            $inputSearch = $(".area_head .area_search .tf_search");
 
         var showSearch = function() {
-            $btnCategory.hide();
-            $title.hide();
-            $areaSearch.addClass(ON_CLASS);
+            $wrap.addClass(ON_CLASS);
             $inputSearch.focus();
         };
 
         var hideSearch = function() {
-            $btnCategory.css("display", "");
-            $title.show();
-            $areaSearch.removeClass(ON_CLASS);
+            $wrap.removeClass(ON_CLASS);
         };
 
         $btnSearch.on("click", function(e) {
@@ -53,7 +48,7 @@
         });
 
         $(document.body).on("keydown", function(e) {
-            if ($areaSearch.hasClass(ON_CLASS) && e.keyCode == 27) {
+            if ($wrap.hasClass(ON_CLASS) && e.keyCode == 27) {
                 $formSearch[0].reset();
                 hideSearch();
             }
