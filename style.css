@@ -83,7 +83,7 @@ html, body{height:100%;min-height:100%}
 .navi_on .wrap_sub{width:960px}
 .navi_on .area_search{left:856px;top:-151px}
 .navi_on.search_on .area_search {width:216px;left:670px;margin-left:0}
-.navi_on .btn_search { margin-top:11px} 
+.navi_on .btn_search { margin-top:11px}
 .navi_on .btn_search .ico_search{background-position:-100px 0}
 .navi_on.search_on .frm_search{width:160px;background-position:0 -100px;margin-top:0}
 .navi_on .lab_search{color:rgba(255,255,255,.4)}
@@ -165,7 +165,8 @@ html, body{height:100%;min-height:100%}
 .area_title{margin:0 0 30px;padding-bottom:15px;border-bottom:1px solid #efefef}
 .area_title .tit_category a {font-weight:700;font-size:16px;color:#6bacce}
 .area_title .tit_post{padding:5px 0 10px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
-.area_title .info_post{font-size:13px;color:#a7a7a7}
+.area_title .info_post,
+.area_title .info_post a {font-size:13px;color:#a7a7a7}
 .area_title .info_post .txt_bar { margin:0 9px 0 5px }
 .area_view {color:#5c5c5c}
 .area_view p {font-size:16px;line-height:28px; margin:0 auto 28px}
