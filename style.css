@@ -66,7 +66,7 @@ html, body{height:100%;min-height:100%}
 .area_search{position:absolute;right:34px;top:-154px;z-index:10}
 .area_search .btn_search{display:block;position:relative;width:23px;height:23px;margin-top:15px}
 .area_search .btn_search .ico_search{width:23px;height:23px;margin:0 auto;background-position:-40px 0}
-.area_search .frm_search{display:none;position:relative;width:243px;height:22px;padding:11px 0 11px 57px;background-position:0 -50px;margin-top:3px}
+.area_search .frm_search{display:none;position:relative;width:243px;height:22px;padding:11px 0 11px 57px;background-position:0 -50px;margin-top:6px}
 .frm_search .tf_search{width:182px;border:0 none;color:#fff;background:transparent}
 .frm_search .tf_search::-webkit-input-placeholder { color:#fff }
 .wrap_sub .btn_close{display:none;position:absolute;right:30px;top:31px;width:22px;height:22px;background-position:-70px 0}
@@ -330,7 +330,7 @@ only screen and (max-width:738px){
 	.cont_sub .area_sub {height:auto}
 	.wrap_skin.navi_on {padding-left:0}
 	.area_search {right:0;top:0}
-	.area_search .btn_search {width:50px;height:45px}
+	.area_search .btn_search {width:50px;height:45px;margin-top:0}
 	.area_search .btn_search .ico_search {width:18px;height:18px;margin-top:0;background-position:-20px 0}
 
 	#tt-body-page .area_head { background-color:rgba(255,255,255,0.95) }
@@ -498,7 +498,7 @@ only screen and (min-width:738px) and (max-width:1262px){
 	.cont_sub {position:static;height:450px}
 	.cont_sub .inner_sub {padding:0}
 	.area_search {right:0;top:0;}
-	.area_search .btn_search {width:90px;height:80px;}
+	.area_search .btn_search {width:90px;height:80px;margin-top:0}
 	.area_search .btn_search .ico_search {width:22px;height:22px;margin:2px auto 0;background-position:-40px 0}
 
 	.search_on .area_search {left:0;top:0;width:100%;margin-left:0;padding:12px 34px 0;-webkit-box-sizing:border-box;box-sizing:border-box}
