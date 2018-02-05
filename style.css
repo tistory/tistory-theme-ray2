@@ -203,12 +203,6 @@ html, body{height:100%;min-height:100%}
 .area_etc .list_tag dt{position:absolute;left:0;top:2px;width:33px;height:17px;margin-right:2px;border-radius:8px;font-size:10px;line-height:17px;color:#fff;background-color:#a7a7a7;text-align:center;padding-right:1px}
 .area_etc .list_tag dd{padding-left:40px}
 .area_etc a {display:inline-block;font-size:13px;color:#a7a7a7}
-.list_share{height:32px;margin-top:57px;text-align:center}
-.list_share li{display:inline-block}
-.list_share .ico_skin{width:32px;height:32px;margin:0 4px}
-.list_share .link_fb{background-position:0 -30px}
-.list_share .link_ks{background-position:-40px -30px}
-.list_share .link_tw{background-position:-80px -30px}
 
 /* 관련기사 */
 .area_related {position:relative;width:820px;margin-top:54px}
@@ -216,7 +210,7 @@ html, body{height:100%;min-height:100%}
 .list_related {overflow:hidden;margin-top:15px}
 .list_related li {position:relative;float:left;margin-right:20px}
 .list_related li:last-child { margin-right:0}
-.list_related .link_related {display:block;overflow:hidden;position:relative;width:185px;height:200px;margin:0 auto;border:1px solid #e8e8e8;background:#fafafa;font-size:13px;;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;color:#fff}
+.list_related .link_related {display:block;overflow:hidden;position:relative;width:185px;height:200px;margin:0 auto;border:1px solid #e8e8e8;background:#fafafa;font-size:13px;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;color:#fff}
 .list_related .thumb_type .link_related {width:185px;height:200px;border:0 none}
 .list_related .frame_related {display:none;position:absolute;left:0;top:0;width:100%;height:100%;background:#000;opacity:.4;filter:alpha(Opacity=40)}
 .thumb_type .frame_related {display:block}
@@ -253,6 +247,11 @@ html, body{height:100%;min-height:100%}
 .list_reply .thumb_profile{float:left;width:48px;height:48px;margin-right:20px;border-radius:48px;background-position:-140px -20px;margin-top:2px}
 .list_reply .img_profile{display:block;width:100%;height:100%;border-radius:48px;}
 .area_reply .list_reply li{position:relative;padding:23px 0 22px 0;border-top:1px solid #efefef; min-height:53px}
+
+#tt-body-page .area_reply .list_reply li.tt_more_preview_comments_wrap { padding:20px; min-height: inherit; border-top:1px solid #efefef }
+#tt-body-page .area_reply .list_reply li.tt_more_preview_comments_wrap:hover { background-color:#efefef }
+#tt-body-page .area_reply .list_reply .tt_more_preview_comments_text { color:#aaa }
+
 .area_reply .list_reply li:first-child{border-top:0 none}
 #tt-body-page .list_reply li:first-child{padding-top:0}
 .area_reply .list_reply .re_reply{padding-left:69px}
@@ -263,7 +262,8 @@ html, body{height:100%;min-height:100%}
 .area_reply .txt_reply{display:block;padding-top:4px;font-size:13px;line-height:21px;color:#5c5c5c;clear:both}
 .area_reply .list_reply li:hover .area_more,
 .area_reply .list_reply li:hover .area_more .reply_layer { display:block }
-.area_more .reply_layer { position:absolute; right:0px; top:16px }
+.area_reply .list_reply li:first-child .reply_layer { top:2px }
+.area_more .reply_layer { position:absolute; right:0px; top:25px }
 .area_more .reply_layer .link_reply { margin:0 2px;font-size:12px;color:#6bacce }
 .area_more .reply_layer .link_reply:hover { text-decoration: none}
 .area_more{display:none}
@@ -403,6 +403,7 @@ only screen and (max-width:738px){
 	.area_reply .txt_date  {font-family:applesdgothicneo-ultralight;margin-top:3px}
 	.area_reply .more_reply {display:block;position:absolute;right:1px;top:0;width:30px;height:45px}
 	.area_reply .ico_more {display:block;width:3px;height:13px;margin:20px auto 0;background-position:-60px 0}
+	.area_reply .list_reply li:first-child .ico_more { margin-top:7px }
 	.area_reply .list_reply .re_reply {padding-left:60px}
 	.area_reply .list_reply li:last-child { padding-bottom:10px }
 	.area_reply .fld_reply {padding:15px 15px 14px;border-bottom:1px solid #efefef;font-family:applesdgothicneo-ultralight}
@@ -426,6 +427,7 @@ only screen and (max-width:738px){
     .area_reply .writer_btn {float:none;overflow:hidden;margin-top:11px}
 	.area_reply .writer_btn .btn_enter {float:right;width:65px;height:33px;font-size:14px;line-height:33px}
 	.area_more {display:block}
+	.area_reply .list_reply li:first-child .reply_layer { top:24px }
 	.area_more .reply_layer {display:none;position:absolute;right:15px;top:38px;z-index:10;width:95px}
 	.on_more .reply_layer {display:block}
 	.reply_layer .inner_reply_layer {padding:10px 0;border:1px solid #dcdcdc;background:#fff}
