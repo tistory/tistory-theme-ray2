@@ -203,6 +203,12 @@ html, body{height:100%;min-height:100%}
 .area_etc .list_tag dt{position:absolute;left:0;top:2px;width:33px;height:17px;margin-right:2px;border-radius:8px;font-size:10px;line-height:17px;color:#fff;background-color:#a7a7a7;text-align:center;padding-right:1px}
 .area_etc .list_tag dd{padding-left:40px}
 .area_etc a {display:inline-block;font-size:13px;color:#a7a7a7}
+.list_share{height:32px;margin-top:57px;text-align:center}
+.list_share li{display:inline-block}
+.list_share .ico_skin{width:32px;height:32px;margin:0 4px}
+.list_share .link_fb{background-position:0 -30px}
+.list_share .link_ks{background-position:-40px -30px}
+.list_share .link_tw{background-position:-80px -30px}
 
 /* 관련기사 */
 .area_related {position:relative;width:820px;margin-top:54px}

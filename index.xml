@@ -1,56 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skin>
-	<information>
-		<name>#2</name>
-		<version>1.0</version>
-		<description>
-			<![CDATA[ 티스토리의 두번째 반응형 스킨입니다. ]]>
-		</description>
-		<license>
-			<![CDATA[ MIT License ]]>
-		</license>
-	</information>
-	<author>
-		<name>Tistory</name>
-		<homepage>http://www.tistory.com</homepage>
-		<email>tistoryblog@daum.net</email>
-	</author>
-	<contest>
-		<description>2015 반응형 스킨 공모전 기념스킨2</description>
-		<preview>//t1.daumcdn.net/tistory_admin/static/admin/new/skin_preview_ray2.png</preview>
-		<document>http://notice.tistory.com/2284</document>
-	</contest>
-	<default>
-		<recentEntries>4</recentEntries>
-		<recentComments>4</recentComments>
-		<recentTrackbacks>4</recentTrackbacks>
-		<itemsOnGuestbook>10</itemsOnGuestbook>
-		<tagsInCloud>30</tagsInCloud>
-		<sortInCloud>3</sortInCloud>
-		<expandComment>1</expandComment>
-		<lengthOfRecentNotice>25</lengthOfRecentNotice>
-		<lengthOfRecentEntry>27</lengthOfRecentEntry>
-		<lengthOfRecentComment>30</lengthOfRecentComment>
-		<lengthOfRecentTrackback>30</lengthOfRecentTrackback>
-		<lengthOfLink>30</lengthOfLink>
-		<showListOnCategory>1</showListOnCategory>
-		<showListOnArchive>1</showListOnArchive>
-		<commentMessage>
-			<none>0</none>
-			<single>1</single>
-		</commentMessage>
-		<trackbackMessage>
-			<none>0</none>
-			<single>1</single>
-		</trackbackMessage>
-		<tree>
-			<color>000000</color>
-			<bgColor>ffffff</bgColor>
-			<activeColor>000000</activeColor>
-			<activeBgColor>eeeeee</activeBgColor>
-			<labelLength>27</labelLength>
-			<showValue>1</showValue>
-		</tree>
-		<contentWidth>820</contentWidth>
-	</default>
+  <information>
+    <name>#2 + a</name>
+    <version>1.1</version>
+    <description>
+      <![CDATA[ 티스토리의 두번째 반응형 스킨 + a ]]>
+    </description>
+    <license>
+      <![CDATA[ MIT License ]]>
+    </license>
+  </information>
+  <author>
+    <name>Tistory</name>
+    <homepage>http://www.tistory.com</homepage>
+    <email>tistoryblog@daum.net</email>
+  </author>
+  <variables>
+    <variable>
+      <name>cover-image</name>
+      <label>
+        <![CDATA[ 커버이미지 ]]>
+      </label>
+      <type>IMAGE</type>
+      <option />
+      <default>
+        <![CDATA[ https://t1.daumcdn.net/tistory/0/Ray2/images/header_default.jpg ]]>
+      </default>
+      <description>
+        <![CDATA[ 커버 이미지를 변경합니다. ]]>
+      </description>
+    </variable>
+    <variable>
+      <name>scroll-load</name>
+      <label>
+        <![CDATA[ 무한스크롤 ]]>
+      </label>
+      <type>BOOL</type>
+      <option />
+      <default>true</default>
+      <description>
+        <![CDATA[ 글 리스트 끝에 다다르면 다음 페이지를 불러옵니다. ]]>
+      </description>
+    </variable>
+    <variable>
+      <name>point-color</name>
+      <label>
+        <![CDATA[ 대표 색 ]]>
+      </label>
+      <type>COLOR</type>
+      <option />
+      <default><![CDATA[#6bacce]]></default>
+      <description>
+        <![CDATA[대표 색을 사용합니다.]]>
+      </description>
+    </variable>
+  </variables>
+  <default>
+    <recentEntries>4</recentEntries>
+    <recentComments>4</recentComments>
+    <recentTrackbacks>4</recentTrackbacks>
+    <itemsOnGuestbook>10</itemsOnGuestbook>
+    <tagsInCloud>30</tagsInCloud>
+    <sortInCloud>3</sortInCloud>
+    <expandComment>1</expandComment>
+    <lengthOfRecentNotice>25</lengthOfRecentNotice>
+    <lengthOfRecentEntry>27</lengthOfRecentEntry>
+    <lengthOfRecentComment>30</lengthOfRecentComment>
+    <lengthOfRecentTrackback>30</lengthOfRecentTrackback>
+    <lengthOfLink>30</lengthOfLink>
+    <showListOnCategory>1</showListOnCategory>
+    <showListOnArchive>1</showListOnArchive>
+    <commentMessage>
+      <none>0</none>
+      <single>1</single>
+    </commentMessage>
+    <trackbackMessage>
+      <none>0</none>
+      <single>1</single>
+    </trackbackMessage>
+    <tree>
+      <color>000000</color>
+      <bgColor>ffffff</bgColor>
+      <activeColor>000000</activeColor>
+      <activeBgColor>eeeeee</activeBgColor>
+      <labelLength>27</labelLength>
+      <showValue>1</showValue>
+    </tree>
+    <contentWidth>820</contentWidth>
+  </default>
 </skin>
